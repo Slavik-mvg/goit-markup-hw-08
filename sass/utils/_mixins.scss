@@ -1,0 +1,19 @@
+@mixin flexCenter(
+    $type:flex, $main-axis:center, $cross-axis:center)
+{
+    display: $type;
+    justify-content: $main-axis;
+    align-items: $cross-axis;
+}
+
+ // .works__title,
+  // .advantage__title,
+  // .footer-socseti__title,
+  // .subscribe__title
+
+  @mixin section-title ($fs:14px, $lh:1.14, $tt:uppercase)
+   {
+    font-size: $fs;
+    line-height: $lh;
+    text-transform: $tt;
+  }

@@ -1,0 +1,50 @@
+
+  .connect {
+    display: flex;
+    align-items: center;
+  
+    padding-left: 0;
+    margin-left: auto;
+      }
+  
+  .connect__item + .connect__item {
+    margin-left: 30px;
+  }
+ 
+  
+  .connect__link {
+    color: var(--base-color);
+    margin: 0;
+    @include flexCenter ();
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+  }
+  
+  .connect__mail {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--base-color);
+  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+    .connect__link:hover &,
+    .connect__link:focus & {
+      fill: var(--accent-button-color);
+    }
+}
+  
+  .connect__tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--base-color);
+  
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    .connect__link:hover &,
+    .connect__link:focus & {
+      fill: var(--accent-button-color);
+    }  
+}
+  

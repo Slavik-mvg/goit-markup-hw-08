@@ -1,0 +1,21 @@
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+    text-decoration: none;
+    color: var(--logo-color-black);
+
+    font-family: $fontLogo;
+    font-weight: bold;
+
+    // font-family: Raleway;
+    // font-weight: bold;
+  
+    min-width: 145px;
+    font-size: 26px;
+  }
+
+  .logo__end {
+    color: var(--accent-color);
+  }
+  

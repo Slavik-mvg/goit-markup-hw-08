@@ -1,0 +1,12 @@
+
+  .footer-socseti {
+    margin-left: 70px;
+  }
+  
+  .footer-socseti__title {
+    @include section-title ();
+    
+    color: var(--title-text-color);
+    margin-top: 12px;
+    margin-bottom: 20px;
+  }
