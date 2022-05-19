@@ -1,71 +1,72 @@
 .hero {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
-    background-color: var(--background-footer-color);
-    color: var(--title-text-color);
-    text-align: center;
-    align-items: center;
-  
-    /* outline: 1px solid tomato; */
-    // display: flex;
-  
-    // max-width: 1600px;
-    // height: 600px;
+  background-color: var(--background-footer-color);
+  color: var(--title-text-color);
+  text-align: center;
+  align-items: center;
 
-    max-width: 480px;
-    height: 400px;
-  
-    justify-content: center;
-    background-image: linear-gradient(
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
+  /* outline: 1px solid tomato; */
+  // display: flex;
 
-      url(/image8/header.jpg); 
-      background-repeat: no-repeat;
+  // max-width: 1600px;
+  // height: 600px;
 
-      // background-size: cover;
+  max-width: 480px;
+  min-height: 400px;
 
-      // url(../images/heroi.jpg);
-padding-top: 118px;
-padding-bottom: 118px;
-    @media screen and (min-width:480px) {
-        .hero {
-          // background-color: rgb(136, 255, 0);
-          width: 480px;
-        }
-    
-      }
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(/image8/header.jpg);
+  background-repeat: no-repeat;
+background-position: center;
+  background-size: cover;
+
+
+
+
+  // url(../images/heroi.jpg);
+
+  @media screen and (min-width: 480px) {
+    .hero {
+      background-color: rgb(136, 255, 0);
+      width: 480px;
+    }
   }
-  
- 
-  
-  .hero__title {
-    font-weight: 900;
-    // font-size: 44px;
-// line-height: 1.36;
+}
 
-        font-size: 26px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-  }
- 
-  .hero__button {
-    margin-right: auto;
-    margin-left: auto;
-     padding: 10px 32px;
-     margin-bottom: 100%;
-     &:hover,
+.hero__title {
+  font-weight: 900;
+  // font-size: 44px;
+  // line-height: 1.36;
+
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+}
+
+.hero__button {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 32px;
+  &:hover,
   &:focus {
     background-color: var(--accent-color);
   }
-  }
-  
-  
-  
- 
+}
 
+.hero__container{
+ 
+padding-left: 0;
+padding-right: 0;
+padding: 118px 60px;
+
+}

@@ -1,5 +1,8 @@
 .advantage
 {@extend %section; 
+
+
+  
     }
 
 .advantage__list {
@@ -9,25 +12,26 @@
 
   
   .advantage__item {
-    width: 270px;
-    & + & {
-        margin-left: 30px;
-    }
+    // width: 270px;
+     max-width: 450px;
+    // & + & {
+    //     margin-left: 15px;
+    // }
+
+
+
   }
   
-  //   .advantage__item + .advantage__item
-//   {
-//     margin-left: 30px;
-//   }
-
-//   .advantage__list li + li {
-//     margin-left: 30px;
-//   }
+  
   
 .advantage__title {
     padding-bottom: 10px;
 
     @include section-title ();
+
+
+        display: flex;
+    justify-content: center;
   }
 
   .advantage__wrap {
