@@ -1,6 +1,9 @@
 
   .footer-socseti {
-    margin-left: 70px;
+  //    margin-left: 70px;
+
+  display: flex;
+    flex-direction: column;
   }
   
   .footer-socseti__title {
@@ -9,4 +12,9 @@
     color: var(--title-text-color);
     margin-top: 12px;
     margin-bottom: 20px;
+
+
+        margin-right: auto;
+    margin-left: auto;
+
   }

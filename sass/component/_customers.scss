@@ -5,9 +5,8 @@
 .customers__list {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 2 - 60px);
-    gap: 30px ;
-// column-count: 2; 
+  gap: 30px;
+  // column-count: 2;
 
   //      display: grid;
   // grid-template-columns: 1fr 1fr;
@@ -15,10 +14,12 @@
   // grid-gap: 1rem;
 }
 
-// .customers__item + .customers__item {
-//   margin-left: 30px;
-// }
-
+.customers__item {
+  flex-basis: calc(100% / 2 - 15px);
+  // .customers__item + .customers__item {
+  //   margin-left: 30px;
+  // }
+}
 
 .customers__link {
   display: flex;
@@ -26,7 +27,7 @@
   align-items: center;
 
   // width: 170px;
-  width: 210px;
+  max-width: 210px;
   height: 92px;
 
   border: 1px solid #afb1b8;

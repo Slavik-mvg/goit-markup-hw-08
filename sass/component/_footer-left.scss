@@ -1,5 +1,11 @@
 .footer-left {
     flex-shrink: 0;
+    display: block;
+    
+
+        margin-right: auto;
+    margin-left: auto;
+ 
   }
 
   .footer-left__logo {
@@ -30,7 +36,7 @@
 
     &:focus,
     &:hover
-  //   ,
+  //   
   //   .link:hover,
   //   .link:focus
      {
@@ -42,5 +48,6 @@
   
   .footer-left__link--color {
     color: var(--link-footer-color);
-    margin-top: 9px;
+    // margin-top: 9px;
+     margin-top: 8px;
   }
