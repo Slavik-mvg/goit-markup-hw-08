@@ -150,6 +150,16 @@ body {
   display: block;
 }
 
+.menu-close-btn {
+  position: fixed;
+  top: 10px;
+  right: 15px;
+}
+
+.close-icon {
+  fill: #212121;
+}
+
 .open-icon {
   fill: #212121;
 }
@@ -161,7 +171,6 @@ body {
   width: 100vh;
   height: 100vh;
   padding: 48px 40px;
-  max-width: 100%;
 }
 .mob-menu .container {
   display: -webkit-box;
@@ -205,6 +214,11 @@ body {
   color: #2196f3;
   text-decoration: none;
 }
+@media screen and (max-width: 479px) {
+  .mob-connect__link {
+    font-size: 9vw;
+  }
+}
 
 .connect-mail {
   font-weight: 500;
@@ -215,13 +229,9 @@ body {
 }
 
 .mob-soc-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 .mob-soc-list__item:not(:last-child)::after {

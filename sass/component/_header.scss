@@ -17,10 +17,17 @@
 }
 
 .menu-close-btn {
+  
+  position: fixed;
+   top: 10px;
+    right: 15px;
+
 }
 
 .close-icon {
+   fill: #212121;
 }
+
 .open-icon {
   fill: #212121;
 }
@@ -40,12 +47,10 @@
     overflow: auto;
   }
 
-      max-width: 100%;
-      
+
 }
 
-.close-icon {
-}
+
 .mob-menu-list {
 }
 
@@ -85,6 +90,12 @@
 
   color: #2196f3;
   text-decoration: none;
+
+  @media screen and (max-width: 479px)
+  { 
+    font-size: 9vw;
+  }
+  
 }
 
 .connect-mail {
@@ -97,17 +108,17 @@
 }
 
 .mob-soc-wrap {
+  
 }
 
 .mob-soc-list {
-  display: flex;
-  flex-direction: row;
-
+  // display: flex;
+  // flex-direction: row;
+    display: inline-flex;
  
 }
 
 .mob-soc-list__item {
-
    &:not(:last-child)::after
    {
     content: '';
@@ -115,15 +126,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 transform: rotate(90deg);
   margin-right: 10px;
   margin-left: 10px;
-
   }
- 
-}
+ }
 .mob-soc-list__link {
-
     text-decoration: none;
-
-
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
