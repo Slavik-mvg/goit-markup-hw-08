@@ -1,8 +1,12 @@
 .advantage
 {@extend %section; 
 
-  
     }
+
+.advantage__container{
+  max-width: 450px;
+}
+
 
 .advantage__list {
     display: flex;

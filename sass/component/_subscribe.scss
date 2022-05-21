@@ -1,19 +1,25 @@
 .subscribe {
     width: 100%;
-    margin-left: 93px;
+    // margin-left: 93px;
   }
   
-  .subscribe__wrap {
-    display: flex;
-  }
+  // .subscribe__wrap {
+  //   display: flex;
+  // }
   
   .subscribe__email {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
-    width: 358px;
+    // width: 358px;
+        width: 100%;
+
+
     padding: 15px 0 15px 16px;
-    margin-right: 12px;
+
+    // margin-right: 12px;
+    margin-bottom: 20px;
+
   
     outline: transparent;
   
@@ -28,7 +34,7 @@
      padding: 10px 29px;
     margin-right: auto;
     margin-left: auto;
-  
+  display: block;
   }
   
   .subscribe__button:hover,
@@ -42,6 +48,9 @@
     color: var(--title-text-color);
       margin-top: 12px;
       margin-bottom: 20px;
+
+
+          text-align: center;
   }
  
   
