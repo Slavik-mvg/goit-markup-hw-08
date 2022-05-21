@@ -229,9 +229,11 @@ body {
 }
 
 .mob-soc-list {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .mob-soc-list__item:not(:last-child)::after {

@@ -108,14 +108,12 @@
 }
 
 .mob-soc-wrap {
-  
 }
 
 .mob-soc-list {
-  // display: flex;
-  // flex-direction: row;
-    display: inline-flex;
- 
+  display: flex;
+  flex-wrap: wrap;
+  
 }
 
 .mob-soc-list__item {
@@ -128,6 +126,7 @@ transform: rotate(90deg);
   margin-left: 10px;
   }
  }
+
 .mob-soc-list__link {
     text-decoration: none;
   font-weight: 500;
@@ -137,4 +136,6 @@ transform: rotate(90deg);
   letter-spacing: 0.02em;
 
   color: #2196f3;
+  
 }
+
