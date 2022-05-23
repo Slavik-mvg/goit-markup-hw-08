@@ -30,75 +30,62 @@
 
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
-    (min-resolution: 2dppx) 
-     {
-      background-image: linear-gradient(
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
-        url(/image8/header2x.jpg);
-         
+    (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/image8/header2x.jpg);
   }
 
- @media screen and (min-width: 768px) 
- {
-      max-width: 768px;
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
 
-      background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(/image8/Headertabletimg.jpg);
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(/image8/Headertabletimg.jpg);
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) 
-     {
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
       background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
         url(/image8/Headertabletimg2x.jpg);
-    
+    }
+    // url(../images/heroi.jpg);
   }
-  // url(../images/heroi.jpg);
 
-}
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url(../images/heroi.jpg);
 
- @media screen and (min-width: 1200px) 
- {
-      
-height: 600px;
-      background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../images/heroi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
-  @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) 
-     {
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
       background-image: linear-gradient(
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
         url(/image8/HeaderDesktopimg2x.jpg);
-    
+    }
+    // url(../images/heroi.jpg);
   }
-  // url(../images/heroi.jpg);
-
-}
-
-
 }
 
 .hero__title {
