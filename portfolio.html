@@ -139,7 +139,7 @@
               </li>
             </ul>
 
-            <!-- <div class="mob-soc-wrap"> -->
+            <div class="mob-soc-wrap">
               <ul class="mob-soc-list list">
                 <li class="mob-soc-list__item">
                   <a
@@ -174,7 +174,7 @@
                   >
                 </li>
               </ul>
-            <!-- </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -186,24 +186,13 @@
       <!-- <section class="page-buttons"> -->
 
       <section class="section portfolio">
-        <div class="container">
+        <div class="container ">
           <ul class="portfolio__filtr list">
             <li class="portfolio__list">
               <button class="portfolio__button" type="button">
                 Все
               </button>
             </li>
-
-            <!-- <section class="section portfolio  ">
-        <div class="container">
-
-          <ul class="buttons list">
-
-            <li class="button-menu">
-              <button class="button-menu-item" type="button">
-                Все
-              </button>
-            </li> -->
 
             <li class="portfolio__list">
               <button class="portfolio__button" type="button">
@@ -231,7 +220,7 @@
 
         <!--Примеры портфолио -->
         <section class="projects">
-          <div class="container">
+          <div class="container projects__container">
             <h1 class="visually-hidden">Примеры портфолио</h1>
             <!--Скрытый заголовок-->
 
@@ -239,11 +228,35 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="
+                          ./image8/img.jpg   1x,
+                          ./image8/imgx2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <source
+                        srcset="
+                          ./image8/img.jpg   1x,
+                          ./image8/imgx2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <source
+                        srcset="
+                          ./image8/img.jpg   1x,
+                          ./image8/imgx2.jpg 2x
+                        "
+                        media="(min-width: 320px)"
+                      />
+                      <img src="./image8/img.jpg" alt="Фото людей" />
+                    </picture>
+                    <!-- <img
                       src="./images/project1.jpg"
                       alt="Фото людей"
                       width="370"
-                    />
+                    /> -->
 
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
@@ -263,11 +276,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/2img.jpg 1x, 
+                        ./image8/2imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/2img.jpg"
+                        alt="Фото баскетболистов"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project2.jpg"
                       alt="Фото баскетболистов"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -287,11 +311,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/3img.jpg 1x, 
+                        ./image8/3imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/3img.jpg"
+                        alt="Лого рестарана"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project3.jpg"
                       alt="Лого рестарана"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -309,11 +344,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/4img.jpg 1x, 
+                        ./image8/4imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/4img.jpg"
+                        alt="Наушники"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project4.jpg"
                       alt="Наушники"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -331,11 +377,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/5img.jpg 1x, 
+                        ./image8/5imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/5img.jpg"
+                        alt="Два коробка"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project5.jpg"
                       alt="Два коробка"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -353,11 +410,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/6img.jpg 1x, 
+                        ./image8/6imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/6img.jpg"
+                        alt="Монитор с изображением"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project6.jpg"
                       alt="Монитор с изображением"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -377,11 +445,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/7img.jpg 1x, 
+                        ./image8/7imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/7img.jpg"
+                        alt="Книга"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project7.jpg"
                       alt="Книга"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -401,11 +480,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/8img.jpg 1x, 
+                        ./image8/8imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/8img.jpg"
+                        alt="Монитор с изображением"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project8.jpg"
                       alt="Тег-метка"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
@@ -423,11 +513,22 @@
               <li class="projects__item list">
                 <a class="projects__link" href="">
                   <div class="projects__wrap">
-                    <img
+                    <picture>
+                      <source
+                        srcset="./image8/9img.jpg 1x, 
+                        ./image8/9imgx2.jpg 2x"
+                        media="(min-width: 320px)"
+                      />
+                      <img
+                        src="./image8/9img.jpg"
+                        alt="Работа за ноутбуком"
+                      />
+                    </picture>
+                    <!-- <img
                       src="./images/project9.jpg"
                       alt="Работа за ноутбуком"
                       width="370"
-                    />
+                    /> -->
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это

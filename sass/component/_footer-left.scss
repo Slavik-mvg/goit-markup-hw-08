@@ -7,15 +7,28 @@
     margin-left: auto;
     text-align: center;
  
+    margin-bottom: 60px;
+
+    @media screen and (min-width: 768px) {
+    
+      margin-right: 165px;
+      }
+
+   @media screen and (min-width: 1200px) {
+    
+    margin-right: 0;
+    margin-left: 0;
+    text-align: left;
+  }
   }
 
   .footer-left__logo {
     color: var(--title-text-color);
       }
 
-      .footer-left__adress {
-        width: 231px;
-      }
+      // .footer-left__adress {
+      //   width: 231px;
+      // }
       
       .footer-left__adress a {
         display: inline-block;
@@ -51,4 +64,10 @@
     color: var(--link-footer-color);
     // margin-top: 9px;
      margin-top: 8px;
+
+
+      @media screen and (min-width: 1200px) {
+    
+ margin-top: 9px;    
+  }
   }

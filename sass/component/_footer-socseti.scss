@@ -2,9 +2,24 @@
   .footer-socseti {
   //    margin-left: 70px;
 
-  display: flex;
-    flex-direction: column;
+  // display: flex;
+  //   flex-direction: column;
+
+
+        margin-bottom: 60px;
+
+@media screen and (min-width: 768px) {
+    
+margin-right: 89px;  
+}
+    
+@media screen and (min-width: 1200px) {
+    
+       margin-left: 70px;
+    margin-right: 0;
   }
+  }
+  
   
   .footer-socseti__title {
     @include section-title ();
@@ -16,5 +31,7 @@
 
         margin-right: auto;
     margin-left: auto;
+
+text-align: center;
 
   }

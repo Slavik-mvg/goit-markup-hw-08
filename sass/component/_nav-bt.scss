@@ -3,12 +3,41 @@
   align-items: center;
 }
 
+.nav-bt__logo{
+padding-top: 16px;
+padding-bottom: 16px;
+
+   @media screen and (min-width: 768px) 
+   {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+
+  
+
+}
+
+
 .nav-bt__list {
   // display: flex;
   display: none;
 
   align-items: center;
-  margin-left: 93px;
+  // margin-left: 93px;
+
+   @media screen and (min-width: 768px) {
+    
+display: flex;   
+  margin-left: 88px;
+
+  }
+
+   @media screen and (min-width: 1200px) {
+    
+margin-left: 93px;
+
+  }
 }
 
 .nav-bt__item + .nav-bt__item {
@@ -17,7 +46,7 @@
 
 .nav-bt__link {
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding-top: 32px;
@@ -30,6 +59,14 @@
 
   .nav-bt__item & {
     position: relative;
+  }
+
+   @media screen and (min-width: 1200px) {
+    
+padding-top: 32px;
+  padding-bottom: 32px; 
+    font-size: 14px;
+   
   }
 }
 

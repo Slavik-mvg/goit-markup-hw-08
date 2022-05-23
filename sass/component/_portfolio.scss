@@ -22,7 +22,13 @@
 
 .portfolio__filtr{
     display: flex;
-    justify-content: center;
+    
+// justify-content: center;
+ flex-wrap: wrap;
+
+ @media screen and (min-width: 768px) {
+   justify-content: center;
+  }
   }
   
   .portfolio__button {
@@ -47,3 +53,12 @@
   .portfolio__list + .portfolio__list {
     margin-left: 8px;
   }
+
+
+.portfolio__list{
+  &:first-child{
+    margin-left: 8px;
+  }
+margin-bottom: 15px;
+}
+     
