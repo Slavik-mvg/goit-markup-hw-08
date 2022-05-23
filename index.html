@@ -280,37 +280,85 @@
           <ul class="works__list list">
             <li class="works__item">
               <a class="works__link" href="">
-                <img
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img-1.jpg   1x,
+                      ./image8/1imgW2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/img-1.jpg"
+                    alt="Фото людей"
+                    class="works__img"
+                  />
+                </picture>
+
+                <!-- <img
                   src="./images/img-1.jpg"
                   alt="Проектирование задачи"
                   width="370"
                   height="294"
                   class="works__img"
-              /></a>
+              /> -->
+              </a>
               <h3 class="works__title">Десктопные приложения</h3>
             </li>
 
             <li class="works__item">
               <a class="works__link" href="">
-                <img
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img-2.jpg   1x,
+                      ./image8/2imgW2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/img-2.jpg"
+                    alt="Фото людей"
+                    class="works__img"
+                  />
+                </picture>
+
+                <!-- <img
                   src="./images/img-2.jpg"
                   alt="Тест на разных устройствах"
                   width="370"
                   height="294"
                   class="works__img"
-              /></a>
+              /> -->
+              </a>
               <h3 class="works__title">Мобильные приложения</h3>
             </li>
 
             <li class="works__item">
-              <a class="works__link" href=""
-                ><img
+              <a class="works__link" href="">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/img-3.jpg   1x,
+                      ./image8/3imgW2x.jpg 2x
+                    "
+                    media="(min-width: 320px)"
+                  />
+                  <img
+                    src="./images/img-3.jpg"
+                    alt="Фото людей"
+                    class="works__img"
+                  />
+                </picture>
+
+                <!-- <img
                   src="./images/img-3.jpg"
                   alt="Выбор лучшей политры"
                   width="370"
                   height="294"
                   class="works__img"
-              /></a>
+              /> -->
+              </a>
               <h3 class="works__title">Дизайнерские решения</h3>
             </li>
           </ul>
@@ -325,16 +373,45 @@
 
           <ul class="command__list list">
             <li class="command__item">
+              <picture>
+                <source
+                  srcset="
+                    ./image8/1Dteam_card.jpg 1x,
+                    ./image8/team_card1.jpg  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./image8/1team_cardT.jpg   1x,
+                    ./image8/2x1team_cardT.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./image8/team_card1.jpg   1x,
+                    ./image8/team_card12x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./image8/team_card1.jpg"
+                  alt="Игорь Демьяненко"
+                />
+              </picture>
+
               <!-- <img
                 src="./images/team_card1.jpg"
                 alt="Игорь Демьяненко"
                 width="270"
               /> -->
-              <img
+
+              <!-- <img
                 src="./image8/team_card1.jpg"
                 alt="Игорь Демьяненко"
                 width="450"
-              />
+              /> -->
 
               <div class="command__wrap">
                 <h3 class="command__title">Игорь Демьяненко</h3>
@@ -401,17 +478,45 @@
             </li>
 
             <li class="command__item">
+              <picture>
+                <source
+                  srcset="
+                    ./image8/2Dteam_card.jpg 1x,
+                    ./image8/team_card2.jpg  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./image8/2team_cardT.jpg    1x,
+                    ./image8/2x21team_cardT.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./image8/team_card2.jpg   1x,
+                    ./image8/team_card22x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./image8/team_card2.jpg"
+                  alt="Ольга Репина"
+                />
+              </picture>
+
               <!-- <img
                 src="./images/team_card2.jpg"
                 alt="Ольга Репина"
                 width="270"
               /> -->
 
-              <img
+              <!-- <img
                 src="./image8/team_card2.jpg"
                 alt="Ольга Репина"
                 width="450"
-              />
+              /> -->
 
               <div class="command__wrap">
                 <h3 class="command__title">Ольга Репина</h3>
@@ -478,11 +583,39 @@
             </li>
 
             <li class="command__item">
-              <img
+              <picture>
+                <source
+                  srcset="
+                    ./image8/3Dteam_card.jpg 1x,
+                    ./image8/team_card3.jpg  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./image8/3team_cardT.jpg   1x,
+                    ./image8/2x3team_cardT.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./image8/team_card3.jpg   1x,
+                    ./image8/team_card32x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="./image8/team_card3.jpg"
+                  alt="Николай Тарасов"
+                />
+              </picture>
+
+              <!-- <img
                 src="./image8/team_card3.jpg"
                 alt="Николай Тарасов"
                 width="450"
-              />
+              /> -->
 
               <div class="command__wrap">
                 <h3 class="command__title">Игорь Демьяненко</h3>
@@ -549,16 +682,42 @@
             </li>
 
             <li class="command__item">
+              <picture>
+                <source
+                  srcset="
+                    ./image8/4Dteam_card.jpg 1x,
+                    ./image8/team_card4.jpg  2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./image8/4team_cardT.jpg   1x,
+                    ./image8/2x4team_cardT.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./image8/team_card4.jpg   1x,
+                    ./image8/team_card42x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img src="./image8/team_card4.jpg" alt="Михаил
+                Ермаков" " />
+              </picture>
+
               <!-- <img
                 src="./images/team_card4.jpg"
                 alt="Михаил Ермаков"
                 width="270"
               /> -->
-              <img
+              <!-- <img
                 src="./image8/team_card4.jpg"
                 alt="Михаил Ермаков"
                 width="450"
-              />
+              /> -->
 
               <div class="command__wrap">
                 <h3 class="command__title">Игорь Демьяненко</h3>

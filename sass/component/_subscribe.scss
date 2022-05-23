@@ -15,9 +15,13 @@
   // display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  width: 450px;
 
   @media screen and (min-width: 1200px) {
     display: flex;
+    text-align: center;
+    width: 570px;
   }
 }
 
@@ -70,6 +74,10 @@
   margin-bottom: 20px;
 
   text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+  }
 }
 
 .subscribe__icon {

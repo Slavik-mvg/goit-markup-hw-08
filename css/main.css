@@ -620,6 +620,13 @@ body {
   padding-top: 0;
   display: none;
 }
+@media screen and (min-width: 1200px) {
+  .works {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .works__list {
   display: -webkit-box;
@@ -979,12 +986,16 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
+  width: 450px;
 }
 @media screen and (min-width: 1200px) {
   .subscribe__wrap {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    text-align: center;
+    width: 570px;
   }
 }
 
@@ -1034,6 +1045,11 @@ footer {
   margin-top: 12px;
   margin-bottom: 20px;
   text-align: center;
+}
+@media screen and (min-width: 1200px) {
+  .subscribe__title {
+    text-align: left;
+  }
 }
 
 .subscribe__icon {
@@ -1339,6 +1355,10 @@ footer {
 }
 .portfolio__list:first-child {
   margin-left: 8px;
+}
+
+.projects__container {
+  max-width: 480px;
 }
 
 .projects__list {
