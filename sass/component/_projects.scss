@@ -97,8 +97,8 @@
 
   background: rgba(33, 150, 243, 0.9);
 
-  .projects__item:hover &,
-  .projects__item:focus & {
+  .projects__link:hover &,
+  .projects__link:focus & {
     transform: translateY(0);
   }
   @media screen and (max-width: 370px) {
