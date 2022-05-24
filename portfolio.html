@@ -254,6 +254,7 @@
                       />
                       <img src="./image8/img.jpg" alt="Фото людей" />
                     </picture>
+
                     <!-- <img
                       src="./images/project1.jpg"
                       alt="Фото людей"
@@ -281,6 +282,20 @@
                     <picture>
                       <source
                         srcset="
+                          ./images/project2.jpg   1x,
+                          ./image8/2imgDesk2x.jpg 2x
+                        "
+                        media="(min-width: 1200px)"
+                      />
+                      <source
+                        srcset="
+                          ./image8/2imgt.jpg   1x,
+                          ./image8/2imgt2x.jpg 2x
+                        "
+                        media="(min-width: 768px)"
+                      />
+                      <source
+                        srcset="
                           ./image8/2img.jpg   1x,
                           ./image8/2imgx2.jpg 2x
                         "
@@ -291,11 +306,13 @@
                         alt="Фото баскетболистов"
                       />
                     </picture>
+
                     <!-- <img
                       src="./images/project2.jpg"
                       alt="Фото баскетболистов"
                       width="370"
                     /> -->
+
                     <p class="projects__info">
                       Ресурс предлагает комплексные предложения с
                       разным уровнем функционала и сервисов. Все это
