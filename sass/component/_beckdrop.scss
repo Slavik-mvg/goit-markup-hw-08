@@ -1,14 +1,13 @@
 .beckdrop {
+  position: fixed;
 
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    background: rgba(0, 0, 0, 0.2);
-  
-    transition: opacity 900ms, visibility 300ms;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.2);
 
-    overflow-y: scroll;
-    
-     
-  }
+  transition: opacity 900ms, visibility 300ms;
+
+  overflow-y: scroll;
+}
