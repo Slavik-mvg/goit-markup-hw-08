@@ -33,6 +33,7 @@
   position: fixed;
   top: 10px;
   right: 15px;
+  margin-bottom: 9px;
 }
 
 .close-icon {
@@ -59,6 +60,10 @@
     overflow: auto;
   }
 }
+
+// .mob-menu-bottom{
+// margin-top: auto;
+// }
 
 .mob-menu-list {
 }
@@ -141,4 +146,8 @@
   letter-spacing: 0.02em;
 
   color: #2196f3;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
