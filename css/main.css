@@ -1070,11 +1070,6 @@ footer {
   transition: opacity 900ms, visibility 300ms;
   overflow-y: scroll;
 }
-@media screen and (min-width: 480px) {
-  .beckdrop {
-    width: 480px;
-  }
-}
 
 .modal {
   position: fixed;
@@ -1229,6 +1224,9 @@ footer {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1236,10 +1234,13 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
+@media screen and (max-width: 480px) {
+  .modal__checkbox-label {
+    display: inline-block;
+  }
+}
 
 .modal__checkbox-label span {
-  /* 
-    margin-left: 0; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

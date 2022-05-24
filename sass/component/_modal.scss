@@ -157,15 +157,18 @@
 
   letter-spacing: 0.03em;
   color: #757575;
-  // display: flex;
+  display: flex;
 
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 480px) {
+    display: inline-block;
+  }
 }
 
 .modal__checkbox-label span {
-  /* 
-    margin-left: 0; */
+  // margin-left: 0;
   display: flex;
 
   fill: #fff;
