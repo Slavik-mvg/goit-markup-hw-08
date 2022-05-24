@@ -841,6 +841,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   max-width: 210px;
+  height: 92px;
   border: 1px solid #afb1b8;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
