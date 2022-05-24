@@ -22,7 +22,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(/image8/header.jpg);
+    url(../image8/header.jpg);
 
   background-repeat: no-repeat;
   background-position: center;
@@ -35,7 +35,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/image8/header2x.jpg);
+      url(../image8/header2x.jpg);
   }
 
   @media screen and (min-width: 768px) {
@@ -45,7 +45,7 @@
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)
       ),
-      url(/image8/Headertabletimg.jpg);
+      url(../image8/Headertabletimg.jpg);
 
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +58,7 @@
           rgba(47, 48, 58, 0.4),
           rgba(47, 48, 58, 0.4)
         ),
-        url(/image8/Headertabletimg2x.jpg);
+        url(../image8/Headertabletimg2x.jpg);
     }
     // url(../images/heroi.jpg);
   }
