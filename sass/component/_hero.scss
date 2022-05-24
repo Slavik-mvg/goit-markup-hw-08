@@ -64,7 +64,8 @@
   }
 
   @media screen and (min-width: 1200px) {
-    min-width: 1200px;
+    max-width: 1600px;
+
 
     // height: 600px;
     background-image: linear-gradient(
@@ -114,7 +115,11 @@
 }
 
 .hero__container {
-  padding-left: 0;
-  padding-right: 0;
+  
   padding: 118px 60px;
+ @media screen and (min-width: 1200px) {
+    
+    padding: 200px 0;
+  }
+
 }

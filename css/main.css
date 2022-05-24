@@ -31,6 +31,12 @@
   padding-bottom: 60px;
   /* outline: 2px solid seagreen; */
 }
+@media screen and (min-width: 1200px) {
+  .portfolio, .customers, .command, .works, .advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .is-hidden {
   visibility: hidden;
@@ -99,9 +105,19 @@ body {
   line-height: 1.17;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 36px;
+  }
+}
 
 .section__title {
   padding-bottom: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    padding-bottom: 50px;
+  }
 }
 
 .logo {
@@ -513,7 +529,7 @@ body {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    min-width: 1200px;
+    max-width: 1600px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/heroi.jpg);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroi.jpg);
     background-repeat: no-repeat;
@@ -548,9 +564,12 @@ body {
 }
 
 .hero__container {
-  padding-left: 0;
-  padding-right: 0;
   padding: 118px 60px;
+}
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    padding: 200px 0;
+  }
 }
 
 .advantage__list {
@@ -588,9 +607,13 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .advantage__title {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .advantage__wrap {
@@ -911,6 +934,7 @@ footer {
   .footer-left {
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 0;
     text-align: left;
   }
 }

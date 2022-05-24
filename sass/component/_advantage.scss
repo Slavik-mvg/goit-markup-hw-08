@@ -1,78 +1,70 @@
-.advantage
-{@extend %section; 
-
-    }
+.advantage {
+  @extend %section;
+}
 
 // .advantage__container{
 //   max-width: 480px;
 // }
 
-
 .advantage__list {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.advantage__item {
+  // width: 270px;
+  max-width: 450px;
+  // & + & {
+  //     margin-left: 15px;
+  // }
+
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    max-width: 354px;
+    margin-left: 15px;
   }
-
-  
-  .advantage__item {
-    // width: 270px;
-     max-width: 450px;
-    // & + & {
-    //     margin-left: 15px;
-    // }
-
-margin-bottom: 30px;
-
-@media screen and (min-width: 768px) {
-    
-           max-width: 354px;
-margin-left: 15px;    
-  }
-@media screen and (min-width: 1200px) {
-    
-     width: 270px;
+  @media screen and (min-width: 1200px) {
+    width: 270px;
     & + & {
-        margin-left: 15px;
+      margin-left: 15px;
     }
   }
+}
 
-
-  }
-  
-  
-  
 .advantage__title {
-    padding-bottom: 10px;
+  padding-bottom: 10px;
 
-    @include section-title ();
+  @include section-title();
 
+  display: flex;
 
-        display: flex;
+  @media screen and (max-width: 768px) {
     justify-content: center;
   }
+}
 
-  .advantage__wrap {
-    height: 120px;
-    background-color: var(--accent-buttons-color);
-  
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
+.advantage__wrap {
+  height: 120px;
+  background-color: var(--accent-buttons-color);
 
-    @include flexCenter ();
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
 
-    margin-bottom: 30px;
-  }
-  
-  .advantage__icon {
-    width: 70px;
-    height: 70px;
-  }
+  @include flexCenter();
 
-  
-  .advantage__text {
-    color: var(--base-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-  }
+  margin-bottom: 30px;
+}
+
+.advantage__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantage__text {
+  color: var(--base-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
