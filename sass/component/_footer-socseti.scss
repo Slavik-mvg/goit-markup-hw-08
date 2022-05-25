@@ -27,11 +27,13 @@ margin-right: 89px;
     color: var(--title-text-color);
     margin-top: 12px;
     margin-bottom: 20px;
+@media screen and (max-width: 1199.9px) {
+    
+      text-align: center;
+  }
+
+        
 
 
-        margin-right: auto;
-    margin-left: auto;
-
-text-align: center;
 
   }

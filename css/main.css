@@ -553,6 +553,12 @@ body {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
 
 .hero__button {
   margin-right: auto;
@@ -588,7 +594,9 @@ body {
 @media screen and (min-width: 768px) {
   .advantage__item {
     max-width: 354px;
-    margin-left: 15px;
+  }
+  .advantage__item:nth-child(2n) {
+    margin-left: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -596,7 +604,7 @@ body {
     width: 270px;
   }
   .advantage__item + .advantage__item {
-    margin-left: 15px;
+    margin-left: 30px;
   }
 }
 
@@ -997,9 +1005,11 @@ footer {
   color: var(--title-text-color);
   margin-top: 12px;
   margin-bottom: 20px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
+}
+@media screen and (max-width: 1199.9px) {
+  .footer-socseti__title {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -1016,7 +1026,11 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  display: inline-grid;
+}
+@media screen and (min-width: 768px) {
+  .subscribe__wrap {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe__wrap {
