@@ -564,7 +564,8 @@ body {
 }
 
 .hero__container {
-  padding: 118px 60px;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 @media screen and (min-width: 1200px) {
   .hero__container {
@@ -913,6 +914,9 @@ footer {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -998,11 +1002,6 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 768px) {
-  .subscribe {
-    margin-left: 166px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .subscribe {
     margin-left: 93px;
@@ -1017,6 +1016,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  display: inline-grid;
 }
 @media screen and (min-width: 1200px) {
   .subscribe__wrap {
